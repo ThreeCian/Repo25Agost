@@ -1,6 +1,6 @@
 var gender = document.getElementById('gender');
 var born = document.getElementById('born');
-var name = document.getElementById('name');
+var Name = document.getElementById('Name');
 var song = document.getElementById('song');
 var datos = document.getElementById('datos')
 
@@ -13,7 +13,7 @@ datos.addEventListener('click', () => {
     born.innerText = año
 
     var album = prompt('Primer Album')
-    name.innerText = album
+    Name.innerText = album
 
     var cancion = prompt('Primera canción conocida por ti')
     song.innerText = cancion

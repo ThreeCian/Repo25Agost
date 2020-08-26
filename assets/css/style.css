@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Link';
+    src: url(../fonts/linkinpark_chase/linkinpark.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    font-family: 'Oswald';
+    font-size: 2em;
+    text-align: start;
+}
+
+.img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Link';
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(199, 193, 193);
+    margin: 10px 0px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
